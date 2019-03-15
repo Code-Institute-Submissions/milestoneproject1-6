@@ -70,10 +70,16 @@ h2 {
     background-image: url('/assets/images/AdobeStock_83822786.jpeg');
     background-position: bottom;
     background-size: cover;
-    
+
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
+}
+
+.audio-player {
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 /*----------MediaQueries----------*/
