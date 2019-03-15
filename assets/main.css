@@ -58,7 +58,22 @@ h2 {
     text-transform: uppercase;
     margin-left: 15px;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1em;
+}
+
+.videoWrapper {
+    margin-bottom: 10%;
+}
+
+#music {
+    background-attachment: fixed;
+    background-image: url('/assets/images/AdobeStock_83822786.jpeg');
+    background-position: bottom;
+    background-size: cover;
+    
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
 }
 
 /*----------MediaQueries----------*/
@@ -88,27 +103,5 @@ h2 {
         background-position: center;
         background-repeat: no-repeat;
         color: #f6f3fc;
-    }
-}
-
-@media (min-width: 992px) {
-    #NellaFantasia {
-        height: 30vh;
-        width: 40vw;
-    }
-    #MusicOfTheNight {
-        height: 30vh;
-        width: 40vw;
-    }
-}
-
-@media (min-width: 1750px) {
-    #NellaFantasia {
-        height: 40vh;
-        width: 40vw;
-    }
-    #MusicOfTheNight {
-        height: 40vh;
-        width: 40vw;
     }
 }
