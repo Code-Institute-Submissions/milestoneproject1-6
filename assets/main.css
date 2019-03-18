@@ -87,9 +87,42 @@ h2 {
 .carousel {
     margin: 2%;
     padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+
+#images-heading {
+    margin-top: 0;
+    padding-top: 5%;
 }
 
 #images-section {
+    background-color: #eef0f1;
+}
+
+/*----------Contact----------*/
+
+#contact-heading {
+    text-align: center;
+    color: azure;
+}
+
+form {
+    margin: 10%;
+    padding-bottom: 10%;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+}
+
+#get-in-touch {
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+#contact {
     background-attachment: fixed;
     background-image: url('/assets/images/AdobeStock_217540875.jpeg');
     background-position: bottom;
@@ -100,10 +133,28 @@ h2 {
     z-index: 1;
 }
 
-#images-heading {
-    margin-top: 0;
-    padding-top: 5%;
+label {
+    color: azure;
 }
+
+.social-links {
+    text-align: center;
+    padding-right: 0;
+}
+
+div #social-col {
+    padding-right: 0;
+}
+
+i {
+    color: #a5b8ab
+}
+
+.fab {
+    font-size: 370%;
+    margin: 10px;
+}
+
 /*----------MediaQueries----------*/
 
 @media (max-width: 400px) {
