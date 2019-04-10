@@ -9,7 +9,7 @@ body {
 
 #landing-view {
     background-attachment: fixed;
-    background-image: url('../images/AdobeStock_160776502.jpeg');
+    background-image: url('images/AdobeStock_160776502.jpeg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -73,7 +73,7 @@ h2 {
 
 #music {
     background-attachment: fixed;
-    background-image: url('../images/AdobeStock_83822786.jpeg');
+    background-image: url('images/AdobeStock_83822786.jpeg');
     background-position: bottom;
     background-size: cover;
 
@@ -130,7 +130,7 @@ form {
 
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/AdobeStock_217540875.jpeg');
+    background-image: url('images/AdobeStock_217540875.jpeg');
     background-position: bottom;
     background-size: cover;
 
@@ -188,7 +188,7 @@ i:hover {
 
 @media (max-width: 1343px) {
     #about-section {
-        background-image: url('../images/53221722_10158423198448289_6838795211884199936_o.jpg');
+        background-image: url('images/53221722_10158423198448289_6838795211884199936_o.jpg');
         background-size: cover;
         width: 100vw;
         background-position: center;
