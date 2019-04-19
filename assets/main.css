@@ -85,9 +85,14 @@ h2 {
 .audio-player {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin: 25px;
 }
 
+h3 {
+    color: #eef0f1;
+    text-align: center;
+}
 /*----------ImagesSection----------*/
 
 .carousel {
